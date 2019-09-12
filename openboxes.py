@@ -88,10 +88,10 @@ def step4():
     return data
 
 def step5():
-	# rinse and repeat the logic for step3, but change the slice
+	# rinse and repeat the logic for step4, but change the slice
     index = []
-    for item in data[4::5]: # this time we slice the array starting at box 4,
-    			    # or index 3, and stepping through by 4
+    for item in data[4::5]: # this time we slice the array starting at box 5,
+    			    # or index 4, and stepping through by 5
 
         index.append(item.keys()[0])
     for i in index:
